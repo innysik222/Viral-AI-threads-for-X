@@ -1,0 +1,54 @@
+{
+  "channels": [
+    {
+      "name": "Lex Fridman",
+      "id": "UCSHZKyawb77ixDdsGog4iWA",
+      "url": "https://www.youtube.com/@lexfridman"
+    },
+    {
+      "name": "Dwarkesh Patel",
+      "id": "UCXl4i9dYBrFOabk0xGmbkRA",
+      "url": "https://www.youtube.com/@dwarkeshpatel"
+    },
+    {
+      "name": "Latent Space",
+      "id": "UCxBcwypKK-W3GHd_RZ9FZrQ",
+      "url": "https://www.youtube.com/@LatentSpacePod"
+    },
+    {
+      "name": "Machine Learning Street Talk",
+      "id": "UCMLtBahI5DMrt0NPvDSoIRQ",
+      "url": "https://www.youtube.com/@MachineLearningStreetTalk"
+    },
+    {
+      "name": "No Priors",
+      "id": "UCSI7h9hydQ40K5MJHnCrQvw",
+      "url": "https://www.youtube.com/@NoPriorsPodcast"
+    },
+    {
+      "name": "Eye on AI",
+      "id": "UC-o9u9QL4zXzBwjvT1gmzNg",
+      "url": "https://www.youtube.com/@eyeonai3425"
+    },
+    {
+      "name": "DeepLearning.AI",
+      "id": "UCcIXc5mJsHVYTZR1maL5l9w",
+      "url": "https://www.youtube.com/@Deeplearningai"
+    },
+    {
+      "name": "Future of Life Institute",
+      "id": "UC-rCCy3FQ-GItDimSR9lhzw",
+      "url": "https://www.youtube.com/@futureoflifeinstitute"
+    }
+  ],
+  "last_processed": {
+    "Lex Fridman": "YFjfBk8HI5o",
+    "Dwarkesh Patel": "n1E9IZfvGMA",
+    "Latent Space": "F_1oDPWxpFQ",
+    "Machine Learning Street Talk": "Ucqfb33GJJ4",
+    "No Priors": "OScO1It9V5g",
+    "Eye on AI": "31-M87Gr1sQ",
+    "DeepLearning.AI": "4gYm0Rp7VHc",
+    "Future of Life Institute": "mPiMxcJgZ5o"
+  }
+}
