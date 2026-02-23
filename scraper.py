@@ -77,9 +77,9 @@ if __name__ == "__main__":
     # Test with a known AI channel (e.g., Lex Fridman)
     test_url = "https://www.youtube.com/@lexfridman"
     print(f"Checking latest video for {test_url}...")
-    vid = get_latest_video_id(test_url)
+    vid, title = get_latest_video_info(test_url)
     if vid:
-        print(f"Found latest video ID: {vid}")
+        print(f"Found latest video ID: {vid} (Title: {title})")
         text = fetch_transcript(vid)
         if text:
             path = save_transcript(vid, text)

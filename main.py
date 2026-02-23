@@ -75,7 +75,9 @@ def process_video(video_id, title, channel_name, date_str, processor):
     
     # Optional: Send a macOS notification
     try:
-        os.system(f'osascript -e \'display notification "Thread generated: {title}" with title "AI Snippets"\'')
+        # Sanitize title for shell osascript
+        safe_title = title.replace('"', '\\"')
+        os.system(f'osascript -e \'display notification "Thread generated: {safe_title}" with title "AI Snippets"\'')
     except:
         pass
         
