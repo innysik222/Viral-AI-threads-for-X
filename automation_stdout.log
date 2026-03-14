@@ -1003,3 +1003,54 @@ Automation mode: Checking 8 channels...
     No new video for DeepLearning.AI.
   Checking Future of Life Institute...
     No new video for Future of Life Institute.
+[main 313f93f] Auto-sync: Generated content 2026-03-13 09:02
+ Committer: Krolya <krolya@Krolyas-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 6 files changed, 242 insertions(+), 3 deletions(-)
+ create mode 100644 output/threads/2026-03-12/Dwarkesh_Patel_KBPOTklFTiU.md
+ create mode 100644 output/threads/2026-03-12/No_Priors_1dYThQgOyZU.md
+ create mode 100644 output/threads/2026-03-13/Eye_on_AI_E6WmXnEFDgc.md
+Automation mode: Checking 8 channels...
+  Checking Lex Fridman...
+    New video found: Jeff Kaplan: World of Warcraft, Overwatch, Blizzard, and Future of Gaming | Lex Fridman Podcast #493 (H9rF1CSSh-w). Processing...
+Error fetching transcript for H9rF1CSSh-w: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=H9rF1CSSh-w! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+  Checking Dwarkesh Patel...
+    No new video for Dwarkesh Patel.
+  Checking Latent Space...
+    New video found: Retrieval After RAG: Hybrid Search, Agents, and Database Design — Simon Eskildsen of Turbopuffer (Iu4gEnZFQz8). Processing...
+Error fetching transcript for Iu4gEnZFQz8: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Iu4gEnZFQz8! This is most likely caused by:
+
+Subtitles are disabled for this video
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+  Checking Machine Learning Street Talk...
+    No new video for Machine Learning Street Talk.
+  Checking No Priors...
+    No new video for No Priors.
+  Checking Eye on AI...
+    New video found: Inside Pathway's Post-Transformer Architecture Designed for Memory and On-the-Fly Learning (E6WmXnEFDgc). Processing...
+    Generating viral thread...
+    Success! Thread saved to output/threads/2026-03-13/Eye_on_AI_E6WmXnEFDgc.md
+  Checking DeepLearning.AI...
+    No new video for DeepLearning.AI.
+  Checking Future of Life Institute...
+    No new video for Future of Life Institute.
+Syncing to GitLab: Auto-sync: Generated content 2026-03-13 09:02
+Successfully pushed to GitLab.
