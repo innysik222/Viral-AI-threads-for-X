@@ -3,7 +3,7 @@ import os
 import re
 
 class GemmaProcessor:
-    def __init__(self, model="gemma3:12b"):
+    def __init__(self, model="gemma4:26b"):
         self.model = model
         self.client = ollama.Client(host='http://localhost:11434')
 
