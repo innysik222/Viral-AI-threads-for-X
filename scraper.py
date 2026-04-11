@@ -2,8 +2,6 @@ import json
 import os
 import subprocess
 import re
-from youtube_transcript_api import YouTubeTranscriptApi
-from youtube_transcript_api._errors import TranscriptsDisabled, NoTranscriptFound
 
 def get_latest_video_info(url, max_retries=3):
     """
@@ -50,20 +48,53 @@ def get_latest_video_info(url, max_retries=3):
             print(f"Error fetching video info for {url}: {e}")
             return None, None
 
-def fetch_transcript(video_id):
-    """
-    Fetches the transcript for a given video ID.
-    Simple direct fetch for first available English transcript.
-    """
+def fetch_transcript(video_id, output_dir="/tmp/transcripts"):
+    import sys
+    
+    url = f"https://www.youtube.com/watch?v={video_id}"
+    os.makedirs(output_dir, exist_ok=True)
+    temp_prefix = os.path.join(output_dir, f"sub_{video_id}")
+    
     try:
-        # Use verified methods from inspection (instance methods)
-        api = YouTubeTranscriptApi()
-        transcript_list = api.list(video_id)
-        transcript = transcript_list.find_transcript(['en'])
-        data = transcript.fetch()
-        return " ".join([t.text for t in data])
+        command = [
+            sys.executable, '-m', 'yt_dlp',
+            '--skip-download',
+            '--write-auto-sub',
+            '--sub-lang', 'en',
+            '--sub-format', 'vtt',
+            '-o', temp_prefix,
+            url
+        ]
+        subprocess.run(command, capture_output=True, text=True, check=True)
+        
+        # yt-dlp generates the file with .en.vtt appended
+        vtt_file = f"{temp_prefix}.en.vtt"
+        if not os.path.exists(vtt_file):
+            print(f"No VTT file generated for {video_id}.")
+            return None
+            
+        with open(vtt_file, 'r', encoding='utf-8') as f:
+            vtt_content = f.read()
+            
+        # Parse VTT
+        text_lines = []
+        for line in vtt_content.split('\n'):
+            line = line.strip()
+            # Skip timestamps, headers, metadata, and empty lines
+            if not line or 'WEBVTT' in line or '-->' in line or line.startswith('Kind:') or line.startswith('Language:') or line.startswith('Style:'):
+                continue
+            # Strip inline tags e.g. <c> or timestamps
+            clean_line = re.sub(r'<[^>]+>', '', line)
+            if clean_line:
+                # Basic deduplication for overlapping subtitle renders
+                if not text_lines or text_lines[-1] != clean_line:
+                    text_lines.append(clean_line)
+                
+        # Clean up temp file
+        os.remove(vtt_file)
+        return " ".join(text_lines)
     except Exception as e:
-        print(f"Error fetching transcript for {video_id}: {e}")
+        print(f"Error fetching transcript via yt-dlp for {video_id}: {e}")
         return None
 
 def save_transcript(video_id, content, output_dir="output/transcripts"):

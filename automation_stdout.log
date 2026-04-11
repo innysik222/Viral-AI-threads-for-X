@@ -1712,3 +1712,103 @@ Error communicating with Ollama: model 'gemma3:12b' not found (status code: 404)
     No new video for DeepLearning.AI.
   Checking Future of Life Institute...
     No new video for Future of Life Institute.
+[main aecfaed] Auto-sync: Generated content 2026-04-05 11:39
+ Committer: Krolya <krolya@Krolyas-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 176 insertions(+), 2 deletions(-)
+ create mode 100644 output/threads/2026-04-02/daily_alpha_2026-04-02_os_online._workspace_and_`threads_`_indexed..md
+ create mode 100644 output/threads/2026-04-02/daily_alpha_2026-04-02_second_brain_active._feed_me_a_raw_research_dump,_.md
+ create mode 100644 output/threads/2026-04-05/Latent_Space_knx2wrILP1M.md
+Automation mode: Checking 8 channels...
+  Checking Lex Fridman...
+    No new video for Lex Fridman.
+  Checking Dwarkesh Patel...
+    No new video for Dwarkesh Patel.
+  Checking Latent Space...
+    New video found: Marc Andreessen introspects on Death of the Browser, Pi + OpenClaw, and Why "This Time Is Different" (knx2wrILP1M). Processing...
+    Generating viral thread...
+    Success! Thread saved to output/threads/2026-04-05/Latent_Space_knx2wrILP1M.md
+  Checking Machine Learning Street Talk...
+    No new video for Machine Learning Street Talk.
+  Checking No Priors...
+    New video found: AI for Atoms: How Periodic Labs is Revolutionizing Materials Engineering with Co-Founder Liam Fedus (Oru2Jxr1xHU). Processing...
+Error fetching transcript for Oru2Jxr1xHU: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Oru2Jxr1xHU! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+  Checking Eye on AI...
+    No new video for Eye on AI.
+  Checking DeepLearning.AI...
+    No new video for DeepLearning.AI.
+  Checking Future of Life Institute...
+    New video found: Defense in Depth: Layered Strategies Against AI Risk (with Li-Lian Ang) (LxnNMkQguvo). Processing...
+Error fetching transcript for LxnNMkQguvo: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=LxnNMkQguvo! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+Syncing to GitLab: Auto-sync: Generated content 2026-04-05 11:39
+Successfully pushed to GitLab.
+Automation mode: Checking 8 channels...
+  Checking Lex Fridman...
+    No new video for Lex Fridman.
+  Checking Dwarkesh Patel...
+    No new video for Dwarkesh Patel.
+  Checking Latent Space...
+    No new video for Latent Space.
+  Checking Machine Learning Street Talk...
+    No new video for Machine Learning Street Talk.
+  Checking No Priors...
+    New video found: AI for Atoms: How Periodic Labs is Revolutionizing Materials Engineering with Co-Founder Liam Fedus (Oru2Jxr1xHU). Processing...
+Error fetching transcript for Oru2Jxr1xHU: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=Oru2Jxr1xHU! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+  Checking Eye on AI...
+    No new video for Eye on AI.
+  Checking DeepLearning.AI...
+    No new video for DeepLearning.AI.
+  Checking Future of Life Institute...
+    New video found: Defense in Depth: Layered Strategies Against AI Risk (with Li-Lian Ang) (LxnNMkQguvo). Processing...
+Error fetching transcript for LxnNMkQguvo: 
+Could not retrieve a transcript for the video https://www.youtube.com/watch?v=LxnNMkQguvo! This is most likely caused by:
+
+YouTube is blocking requests from your IP. This usually is due to one of the following reasons:
+- You have done too many requests and your IP has been blocked by YouTube
+- You are doing requests from an IP belonging to a cloud provider (like AWS, Google Cloud Platform, Azure, etc.). Unfortunately, most IPs from cloud providers are blocked by YouTube.
+
+Ways to work around this are explained in the "Working around IP bans" section of the README (https://github.com/jdepoix/youtube-transcript-api?tab=readme-ov-file#working-around-ip-bans-requestblocked-or-ipblocked-exception).
+
+
+If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
