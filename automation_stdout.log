@@ -1812,3 +1812,99 @@ Ways to work around this are explained in the "Working around IP bans" section o
 
 
 If you are sure that the described cause is not responsible for this error and that a transcript should be retrievable, please create an issue at https://github.com/jdepoix/youtube-transcript-api/issues. Please add which version of youtube_transcript_api you are using and provide the information needed to replicate the error. Also make sure that there are no open issues which already describe your problem!
+[main b493131] Auto-sync: Generated content 2026-04-11 09:02
+ Committer: Krolya <krolya@Krolyas-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 31 files changed, 1137 insertions(+), 21 deletions(-)
+ create mode 100644 output/threads/2026-04-05/daily_alpha_2026-04-05_hey._second_brain_os_online_and_fully_mapped..md
+ create mode 100644 output/threads/2026-04-05/daily_alpha_2026-04-05_krolya,_os_is_active._workspace_indexed..md
+ create mode 100644 "output/threads/2026-04-05/daily_alpha_2026-04-05_online._workspace_mapped._i\342\200\231ve_indexed_the_`thread.md"
+ create mode 100644 output/threads/2026-04-05/daily_alpha_2026-04-05_python_scope_collision_on_'result'_resolved._stand.md
+ create mode 100644 output/threads/2026-04-05/daily_alpha_2026-04-05_researcher_worker_failed._trace_indicates_a_scope_.md
+ create mode 100644 output/threads/2026-04-05/daily_alpha_2026-04-05_researcher_worker_stalled_on_an_unassigned_`result.md
+ create mode 100644 output/threads/2026-04-05/daily_alpha_2026-04-05_the_researcher_crashed_on_a_`nameerror`._it_tried_.md
+ create mode 100644 output/threads/2026-04-07/Eye_on_AI_pPpDxB4N_mE.md
+ create mode 100644 output/threads/2026-04-07/No_Priors_Oru2Jxr1xHU.md
+ create mode 100644 output/threads/2026-04-07/daily_alpha_2026-04-07_analyzing_the_technical_edge_of_the_queued_breakth.md
+ create mode 100644 output/threads/2026-04-07/daily_alpha_2026-04-07_hey._i'm_fully_online_and_ready..md
+ create mode 100644 output/threads/2026-04-07/daily_alpha_2026-04-07_hey._synthesizer_online..md
+ create mode 100644 "output/threads/2026-04-07/daily_alpha_2026-04-07_hey_there!_\360\237\221\213.md"
+ create mode 100644 output/threads/2026-04-07/daily_alpha_2026-04-07_synthesizer_is_active..md
+ create mode 100644 output/threads/2026-04-08/Dwarkesh_Patel_myP8UjAM1pk.md
+ create mode 100644 output/threads/2026-04-08/daily_alpha_2026-04-08_**_synthetic_context_synthesis**.md
+ create mode 100644 "output/threads/2026-04-08/daily_alpha_2026-04-08_hey!_\360\237\221\213.md"
+ create mode 100644 "output/threads/2026-04-08/daily_alpha_2026-04-08_hey_there!_\360\237\221\213.md"
+ create mode 100644 output/threads/2026-04-08/daily_alpha_2026-04-08_the_frontier_of_ai_&_scientific_discovery.md
+ create mode 100644 "output/threads/2026-04-08/daily_alpha_2026-04-08_the_hidden_ceilings_of_ai_\342\200\224_what_current_architect.md"
+ create mode 100644 output/threads/2026-04-10/DeepLearningAI_YW6oWf4xoGk.md
+ create mode 100644 output/threads/2026-04-10/Latent_Space_CeOXx-XTYek.md
+ create mode 100644 output/threads/2026-04-10/Lex_Fridman_iKx3gAODybU.md
+ create mode 100644 output/threads/2026-04-10/No_Priors_eyobeqMdbeI.md
+ create mode 100644 "output/threads/2026-04-10/daily_alpha_2026-04-10_hey_there!_\360\237\221\213.md"
+ create mode 100644 output/threads/2026-04-11/Future_of_Life_Institute_dvu5uTmvIPw.md
+Automation mode: Checking 8 channels...
+  Checking Lex Fridman...
+    No new video for Lex Fridman.
+  Checking Dwarkesh Patel...
+    No new video for Dwarkesh Patel.
+  Checking Latent Space...
+    No new video for Latent Space.
+  Checking Machine Learning Street Talk...
+    No new video for Machine Learning Street Talk.
+  Checking No Priors...
+    No new video for No Priors.
+  Checking Eye on AI...
+    No new video for Eye on AI.
+  Checking DeepLearning.AI...
+    No new video for DeepLearning.AI.
+  Checking Future of Life Institute...
+    New video found: AI Expert Warns: 5 Billionaires Are (Quietly) Deciding Our Future (dvu5uTmvIPw). Processing...
+    Generating viral thread...
+    Success! Thread saved to output/threads/2026-04-11/Future_of_Life_Institute_dvu5uTmvIPw.md
+Syncing to GitLab: Auto-sync: Generated content 2026-04-11 09:02
+Successfully pushed to GitLab.
+Automation mode: Checking 8 channels...
+  Checking Lex Fridman...
+    No new video for Lex Fridman.
+  Checking Dwarkesh Patel...
+    No new video for Dwarkesh Patel.
+  Checking Latent Space...
+    No new video for Latent Space.
+  Checking Machine Learning Street Talk...
+    No new video for Machine Learning Street Talk.
+  Checking No Priors...
+    No new video for No Priors.
+  Checking Eye on AI...
+    No new video for Eye on AI.
+  Checking DeepLearning.AI...
+    No new video for DeepLearning.AI.
+  Checking Future of Life Institute...
+    No new video for Future of Life Institute.
+Automation mode: Checking 8 channels...
+  Checking Lex Fridman...
+Error fetching video info for https://www.youtube.com/@lexfridman: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', 'https://www.youtube.com/@lexfridman']' returned non-zero exit status 1.
+  Checking Dwarkesh Patel...
+Error fetching video info for https://www.youtube.com/@dwarkeshpatel: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', 'https://www.youtube.com/@dwarkeshpatel']' returned non-zero exit status 1.
+  Checking Latent Space...
+Error fetching video info for https://www.youtube.com/@LatentSpacePod: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', 'https://www.youtube.com/@LatentSpacePod']' returned non-zero exit status 1.
+  Checking Machine Learning Street Talk...
+Error fetching video info for https://www.youtube.com/@MachineLearningStreetTalk: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', 'https://www.youtube.com/@MachineLearningStreetTalk']' returned non-zero exit status 1.
+  Checking No Priors...
+Error fetching video info for https://www.youtube.com/@NoPriorsPodcast: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', 'https://www.youtube.com/@NoPriorsPodcast']' returned non-zero exit status 1.
+  Checking Eye on AI...
+Error fetching video info for https://www.youtube.com/@eyeonai3425: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', 'https://www.youtube.com/@eyeonai3425']' returned non-zero exit status 1.
+  Checking DeepLearning.AI...
+Error fetching video info for https://www.youtube.com/@Deeplearningai: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', 'https://www.youtube.com/@Deeplearningai']' returned non-zero exit status 1.
+  Checking Future of Life Institute...
+Error fetching video info for https://www.youtube.com/@futureoflifeinstitute: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', 'https://www.youtube.com/@futureoflifeinstitute']' returned non-zero exit status 1.
