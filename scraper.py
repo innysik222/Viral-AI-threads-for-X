@@ -16,13 +16,21 @@ def get_latest_video_info(url, max_retries=3):
         try:
             # Check if it's already a video URL for titles
             if "watch?v=" in url:
-                command = [sys.executable, '-m', 'yt_dlp', '--get-id', '--get-title', url]
+                command = [
+                    sys.executable, '-m', 'yt_dlp', 
+                    '--get-id', '--get-title', 
+                    '--cookies-from-browser', 'chrome',
+                    '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+                    url
+                ]
             else:
                 command = [
                     sys.executable, '-m', 'yt_dlp',
                     '--get-id', '--get-title',
                     '--playlist-items', '1',
                     '--flat-playlist',
+                    '--cookies-from-browser', 'chrome',
+                    '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
                     url
                 ]
             result = subprocess.run(command, capture_output=True, text=True, check=True, timeout=30)
@@ -41,6 +49,11 @@ def get_latest_video_info(url, max_retries=3):
             if attempt < max_retries - 1:
                 time.sleep(2 ** attempt)
                 continue
+            
+            # Phase 78: Detailed Error Logging
+            err_msg = getattr(e, 'stderr', str(e))
+            print(f"Error fetching video info for {url}: {err_msg[:200]}")
+
             # Regex fallback for ID if yt-dlp fails
             v_match = re.search(r"v=([a-zA-Z0-9_-]{11})", url)
             if v_match:
@@ -62,6 +75,8 @@ def fetch_transcript(video_id, output_dir="/tmp/transcripts"):
             '--write-auto-sub',
             '--sub-lang', 'en',
             '--sub-format', 'vtt',
+            '--cookies-from-browser', 'chrome',
+            '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             '-o', temp_prefix,
             url
         ]
@@ -94,7 +109,9 @@ def fetch_transcript(video_id, output_dir="/tmp/transcripts"):
         os.remove(vtt_file)
         return " ".join(text_lines)
     except Exception as e:
-        print(f"Error fetching transcript via yt-dlp for {video_id}: {e}")
+        # Phase 78: Detailed Error Logging
+        err_msg = getattr(e, 'stderr', str(e))
+        print(f"Error fetching transcript via yt-dlp for {video_id}: {err_msg[:200]}")
         return None
 
 def save_transcript(video_id, content, output_dir="output/transcripts"):

@@ -25,10 +25,20 @@ def sync_to_gitlab(repo_path, commit_message=None):
         # Git commands
         subprocess.run(["git", "add", "."], check=True)
         subprocess.run(["git", "commit", "-m", commit_message], check=True)
-        subprocess.run(["git", "push"], check=True)
         
-        print("Successfully pushed to GitLab.")
-        return True
+        # Phase 78: Git Push Retry Logic (handle network timeouts)
+        import time
+        for attempt in range(3):
+            try:
+                subprocess.run(["git", "push"], check=True)
+                print("Successfully pushed to GitLab.")
+                return True
+            except subprocess.CalledProcessError as e:
+                if attempt < 2:
+                    print(f"Git push failed (Attempt {attempt+1}/3). Retrying in 5s...")
+                    time.sleep(5)
+                else:
+                    raise e
     except subprocess.CalledProcessError as e:
         print(f"Git sync failed: {e}")
         return False
