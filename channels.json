@@ -39,16 +39,22 @@
       "name": "Future of Life Institute",
       "id": "UC-rCCy3FQ-GItDimSR9lhzw",
       "url": "https://www.youtube.com/@futureoflifeinstitute"
+    },
+    {
+      "name": "Diary of a CEO",
+      "id": "UCwgF2PFf7uLWB2A-dWV1V1g",
+      "url": "https://www.youtube.com/@TheDiaryOfACEO"
     }
   ],
   "last_processed": {
     "Lex Fridman": "iKx3gAODybU",
     "Dwarkesh Patel": "Hrbq66XqtCo",
-    "Latent Space": "yyuVR-ML9X8",
+    "Latent Space": "uqM8qjbLRHA",
     "Machine Learning Street Talk": "EInEmGaMRLc",
     "No Priors": "tNNFJa5pUEg",
-    "Eye on AI": "TziSYA6wX2I",
+    "Eye on AI": "tYNKBy3hC8o",
     "DeepLearning.AI": "bJ8F43j1Fqw",
-    "Future of Life Institute": "PB_y2A_K-18"
+    "Future of Life Institute": "PB_y2A_K-18",
+    "Diary of a CEO": "jt5hHb6kzYM"
   }
 }
