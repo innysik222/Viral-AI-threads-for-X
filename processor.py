@@ -3,7 +3,7 @@ import os
 import re
 
 class GemmaProcessor:
-    def __init__(self, model="gemma4:26b"):
+    def __init__(self, model="qwen2.5:7b"):
         self.model = model
         self.client = ollama.Client(host='http://localhost:11434')
 
@@ -93,7 +93,7 @@ IMAGE GENERATION PROMPT: [Your prompt]
                 model=self.model,
                 prompt=prompt,
                 options={
-                    "num_ctx": 65536,  # 64k tokens to be safe
+                    "num_ctx": 16384,  # 16k is sufficient for transcripts
                     "temperature": 0.7,
                 }
             )
