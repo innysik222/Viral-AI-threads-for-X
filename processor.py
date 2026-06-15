@@ -11,6 +11,11 @@ class GemmaProcessor:
         """
         Uses Gemma 3 to transform a transcript into a viral X thread AND a summary article.
         """
+        # Truncate transcript to prevent exceeding context window
+        max_chars = 100000
+        if len(transcript) > max_chars:
+            transcript = transcript[:max_chars] + "\n...[Transcript truncated due to length]..."
+
         prompt = f"""
 You are a world-class social media strategist, elite tech journalist, and AI expert. 
 Your task is to analyze the following interview transcript and create TWO distinct outputs:
@@ -93,7 +98,7 @@ IMAGE GENERATION PROMPT: [Your prompt]
                 model=self.model,
                 prompt=prompt,
                 options={
-                    "num_ctx": 16384,  # 16k is sufficient for transcripts
+                    "num_ctx": 32768,  # Increased to 32k for long podcasts
                     "temperature": 0.7,
                 }
             )
