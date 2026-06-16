@@ -3918,3 +3918,43 @@ Error communicating with Ollama: timed out waiting for llama-server to start -  
     No new video for Future of Life Institute.
   Checking Diary of a CEO...
     No new video for Diary of a CEO.
+[main b0f0938] Auto-sync: Generated content 2026-06-15 09:18
+ Committer: Krolya <krolya@Krolyas-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 203 insertions(+), 6 deletions(-)
+ create mode 100644 output/threads/2026-06-13/Manual_Xs94KBeIiAo.md
+ create mode 100644 output/threads/2026-06-15/Eye_on_AI_71_zjHojlhI.md
+Automation mode: Checking 9 channels...
+  Checking Lex Fridman...
+    No new video for Lex Fridman.
+  Checking Dwarkesh Patel...
+    No new video for Dwarkesh Patel.
+  Checking Latent Space...
+    No new video for Latent Space.
+  Checking Machine Learning Street Talk...
+    No new video for Machine Learning Street Talk.
+  Checking No Priors...
+    No new video for No Priors.
+  Checking Eye on AI...
+    New video found: One Company Now Has More AI Agents Than Human Employees | Ryan Gavin of Slack (71_zjHojlhI). Processing...
+    Generating viral thread...
+    Success! Thread saved to output/threads/2026-06-15/Eye_on_AI_71_zjHojlhI.md
+  Checking DeepLearning.AI...
+    No new video for DeepLearning.AI.
+  Checking Future of Life Institute...
+    No new video for Future of Life Institute.
+  Checking Diary of a CEO...
+    No new video for Diary of a CEO.
+Syncing to GitLab: Auto-sync: Generated content 2026-06-15 09:18
+Successfully pushed to GitLab.
