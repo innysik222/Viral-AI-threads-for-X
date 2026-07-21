@@ -1,6 +1,7 @@
 import json
 import os
 import argparse
+import subprocess
 from datetime import datetime
 from scraper import get_latest_video_info, fetch_transcript, save_transcript
 from digest import generate_daily_digest
@@ -235,14 +236,17 @@ def process_video(video_id, title, channel_name, date_str, processor):
     
     # Optional: Send a macOS notification
     try:
-        # Sanitize title for AppleScript
         msg = f"Thread generated: {title}"
-        safe_msg = msg.replace('"', '\\"').replace("'", "\\'")
-        os.system(f'''osascript -e 'display notification "{safe_msg}" with title "AI Snippets"' ''')
+        script = f'display notification "{apple_script_string(msg)}" with title "AI Snippets"'
+        subprocess.run(["osascript", "-e", script], check=False, timeout=10)
     except:
         pass
         
     return path
+
+
+def apple_script_string(value):
+    return str(value).replace("\\", "\\\\").replace('"', '\\"')
 
 
 def post_thread_posts(thread_paths, date_str, threads_chat_id=None, model=None):
