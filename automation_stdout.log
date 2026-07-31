@@ -5861,3 +5861,105 @@ Posting share post to Telegram...
 Share post posted to Telegram.
 Syncing to GitLab: Auto-sync: Generated content 2026-07-28 09:04
 Successfully pushed to GitLab.
+[main 05205f4] Auto-sync: Generated content 2026-07-29 09:07
+ Committer: Krolya <krolya@Krolyas-MacBook-Pro.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly. Run the
+following command and follow the instructions in your editor to edit
+your configuration file:
+
+    git config --global --edit
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 8 files changed, 268 insertions(+), 3 deletions(-)
+ create mode 100644 output/digests/2026-07-29.md
+ create mode 100644 output/share_posts/2026-07-29.share.md
+ create mode 100644 output/threads/2026-07-29/Eye_on_AI_i1X8riLgeSE.md
+ create mode 100644 output/threads/2026-07-29/Latent_Space_gKhW6vL4V9A.md
+ create mode 100644 output/threads/2026-07-29/Lex_Fridman_XyXBwO5jYpw.md
+Automation mode: Checking 9 channels...
+  Checking Lex Fridman...
+    New video found: Gary Gallagher: American Civil War, Slavery, Lincoln, Grant & Lee | Lex Fridman Podcast #499 (XyXBwO5jYpw). Processing...
+    Generating viral thread...
+    Success! Thread saved to output/threads/2026-07-29/Lex_Fridman_XyXBwO5jYpw.md
+  Checking Dwarkesh Patel...
+    No new video for Dwarkesh Patel.
+  Checking Latent Space...
+    New video found: OpenAI’s Plan to Make ChatGPT the Everything App — Akshay Nathan, OpenAI (gKhW6vL4V9A). Processing...
+    Generating viral thread...
+    Success! Thread saved to output/threads/2026-07-29/Latent_Space_gKhW6vL4V9A.md
+  Checking Machine Learning Street Talk...
+    No new video for Machine Learning Street Talk.
+  Checking No Priors...
+    No new video for No Priors.
+  Checking Eye on AI...
+    New video found: Video Is About to Stop Being One-Way (and That Changes Everything) | Victor Riparbelli, Synthesia (i1X8riLgeSE). Processing...
+    Generating viral thread...
+    Success! Thread saved to output/threads/2026-07-29/Eye_on_AI_i1X8riLgeSE.md
+  Checking DeepLearning.AI...
+    No new video for DeepLearning.AI.
+  Checking Future of Life Institute...
+    No new video for Future of Life Institute.
+  Checking Diary of a CEO...
+    No new video for Diary of a CEO.
+Generating Telegram digest for 2026-07-29...
+Ollama digest generation with gemma4:12b in single mode failed, using fallback digest: timed out
+Digest saved to output/digests/2026-07-29.md
+Posting digest to Telegram...
+Digest posted to Telegram.
+Generating share post...
+Share post saved to output/share_posts/2026-07-29.share.md
+Posting share post to Telegram...
+Share post posted to Telegram.
+Syncing to GitLab: Auto-sync: Generated content 2026-07-29 09:07
+Successfully pushed to GitLab.
+Automation mode: Checking 9 channels...
+  Checking Lex Fridman...
+Error fetching video info for https://www.youtube.com/@lexfridman: WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from Py
+Error fetching video info for https://www.youtube.com/@lexfridman: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', '--cookies-from-browser', 'chrome', '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'https://www.youtube.com/@lexfridman']' returned non-zero exit status 1.
+  Checking Dwarkesh Patel...
+Error fetching video info for https://www.youtube.com/@dwarkeshpatel: WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from Py
+Error fetching video info for https://www.youtube.com/@dwarkeshpatel: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', '--cookies-from-browser', 'chrome', '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'https://www.youtube.com/@dwarkeshpatel']' returned non-zero exit status 1.
+  Checking Latent Space...
+Error fetching video info for https://www.youtube.com/@LatentSpacePod: WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from Py
+Error fetching video info for https://www.youtube.com/@LatentSpacePod: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', '--cookies-from-browser', 'chrome', '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'https://www.youtube.com/@LatentSpacePod']' returned non-zero exit status 1.
+  Checking Machine Learning Street Talk...
+Error fetching video info for https://www.youtube.com/@MachineLearningStreetTalk: WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from Py
+Error fetching video info for https://www.youtube.com/@MachineLearningStreetTalk: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', '--cookies-from-browser', 'chrome', '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'https://www.youtube.com/@MachineLearningStreetTalk']' returned non-zero exit status 1.
+  Checking No Priors...
+Error fetching video info for https://www.youtube.com/@NoPriorsPodcast: WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from Py
+Error fetching video info for https://www.youtube.com/@NoPriorsPodcast: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', '--cookies-from-browser', 'chrome', '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'https://www.youtube.com/@NoPriorsPodcast']' returned non-zero exit status 1.
+  Checking Eye on AI...
+Error fetching video info for https://www.youtube.com/@eyeonai3425: WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from Py
+Error fetching video info for https://www.youtube.com/@eyeonai3425: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', '--cookies-from-browser', 'chrome', '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'https://www.youtube.com/@eyeonai3425']' returned non-zero exit status 1.
+  Checking DeepLearning.AI...
+Error fetching video info for https://www.youtube.com/@Deeplearningai: WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from Py
+Error fetching video info for https://www.youtube.com/@Deeplearningai: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', '--cookies-from-browser', 'chrome', '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'https://www.youtube.com/@Deeplearningai']' returned non-zero exit status 1.
+  Checking Future of Life Institute...
+Error fetching video info for https://www.youtube.com/@futureoflifeinstitute: WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from Py
+Error fetching video info for https://www.youtube.com/@futureoflifeinstitute: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', '--cookies-from-browser', 'chrome', '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'https://www.youtube.com/@futureoflifeinstitute']' returned non-zero exit status 1.
+  Checking Diary of a CEO...
+Error fetching video info for https://www.youtube.com/@TheDiaryOfACEO: WARNING: Your yt-dlp version (2026.03.17) is older than 90 days!
+         It is strongly recommended to always use the latest version.
+         You installed yt-dlp with pip or using the wheel from Py
+Error fetching video info for https://www.youtube.com/@TheDiaryOfACEO: Command '['/Library/Frameworks/Python.framework/Versions/3.14/bin/python3', '-m', 'yt_dlp', '--get-id', '--get-title', '--playlist-items', '1', '--flat-playlist', '--cookies-from-browser', 'chrome', '--user-agent', 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36', 'https://www.youtube.com/@TheDiaryOfACEO']' returned non-zero exit status 1.
