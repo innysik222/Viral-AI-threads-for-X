@@ -486,3 +486,6 @@ To https://github.com/innysik222/Viral-AI-threads-for-X
    e54f60f..c8c893e  main -> main
 To https://github.com/innysik222/Viral-AI-threads-for-X
    c8c893e..c2b32d8  main -> main
+fatal: unable to access 'https://github.com/innysik222/Viral-AI-threads-for-X/': Failed to connect to github.com port 443 after 75042 ms: Couldn't connect to server
+fatal: unable to access 'https://github.com/innysik222/Viral-AI-threads-for-X/': Failed to connect to github.com port 443 after 75020 ms: Couldn't connect to server
+fatal: unable to access 'https://github.com/innysik222/Viral-AI-threads-for-X/': Could not resolve host: github.com
